@@ -1,4 +1,33 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#weather {
+    color: white;
+    font-size: 15px;
+}
+
+#madeBy{
+    color: white;
+    font-size: 5px;
+}
+
+
+.body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
 
 .hidden {
     display: none;
 }
+
+
+#clock, #day {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
