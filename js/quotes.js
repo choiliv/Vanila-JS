@@ -5,36 +5,36 @@
 
      const quotes = [
     {
-        quote: "이렇게 귀한 곳에 어떻게 누추한 분이...",
-        author: "작자미상"
+        quote: "The secret of getting ahead is getting started.",
+        author: "- Mark Twain"
     },
     {
-        quote: "우울과 우웅은 한끗차이",
-        author: "작자미상",   
+        quote: "Age is no guarantee of maturity.",
+        author: "- Lawana Blackwell",   
     },
     {
-        quote: "수영하면 물에 뜨는 뚠뚠이",
-        author: "작자미상",   
+        quote: "You will face many defeats in life, but never let yourself be defeated.",
+        author: "- Maya Angelou",   
     },
     {
-        quote: "추억이 되려면 말도 안되는 일을 해야한다",
-        author: "윤정한",   
+        quote: "This too shall pass.",
+        author: "- Et hoc transibit",   
     },
     {
-        quote: "잠이나 자라",
-        author: "작자미상",   
+        quote: "Only I can change me life, no one can do it for me.",
+        author: "- Carol Burnett",   
     },
     {
-        quote: "치킨은 살이 안찐다, 내가 찐다",
-        author: "작자미상",   
+        quote: "Great minds have purposes, others have wishes.",
+        author: "- Washington Irving",   
     },
     {
-        quote: "어쩌겠습니까, 해내야죠",
-        author: "박은빈",   
+        quote: "The less their ability, the more their conceit.",
+        author: "- Ahad Ha-am",   
     },
     {
-        quote: "BTS, 봉준호, 손흥민, Jay Park, Let's go",
-        author: "Jay Park",   
+        quote: "The way to get started is to quit talking and begin doing.",
+        author: "- Walt Disney",   
     },
         ]
 

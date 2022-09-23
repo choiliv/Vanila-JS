@@ -1,33 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&family=Ubuntu:wght@700&display=swap');
+
 header {
     display: flex;
+    position: fixed;
+    width:  100vw;
     justify-content: space-between;
+    top: 5px;
 }
 
 #weather {
     color: white;
     font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+
 }
 
 #madeBy{
     color: white;
     font-size: 5px;
+    margin-right: 15px;
+    font-family: 'Dancing Script', cursive;
+    
 }
 
 
-.body {
+ body {
     background-repeat: no-repeat;
     background-size: cover;
+    background: center;
+    box-sizing: border-box;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+
 }
 
+main {
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+}
 .hidden {
     display: none;
 }
 
+#login-form input,
+#todo-form input{
+    outline:none;
+    border: 0 solid black;
+    background: transparent;
+    color: white;
+}
+
+#login-form input:first-child{
+    width: 300px;
+    height: 50px;
+}
+
+#login-form input::placeholder
+{
+    color: white;
+    font-size: 30px;
+}
+
+
+#greeting {
+    color: white;
+    position: fixed;
+    top: 30px;
+    font-size: 50px;
+}
 
 #clock, #day {
     color: white;
     font-weight: 600;
     font-size: 20px;
+    position:fixed;
 }
 
+#day {
+    top: 260px;
+}
+
+#clock {
+    font-size:80px;
+    top: 160px;
+
+}
+
+#todo-form {
+    position:fixed;
+
+
+}
+
+#todo-form input {
+    width: 280px;
+    height: 50px;
+    margin-left:20px;
+    color: rgba(0,0,0,0.6);
+    font-weight: 700;
+    font-size:18x;
+}
+
+#todo-form input::placeholder {
+     font-size: 20px;
+     color: white;
+     font-family: 'Jua', sans-serif;
+     font-weight: 800;
+}
+
+#todo-list {
+    position: fixed;
+    top:360px;
+}
+
+
+li {
+    list-style-type: none;
+    background-color: rgba(255, 241, 215, 0.523);
+    border-radius: 10px;
+    padding: 10px;
+    width:280px;
+    height: 20px;
+    margin:0 30px 5px 0;
+
+}
+
+li>span {
+    color: rgba(0,0,0,0.6);
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+li>button {
+    border: 0 solid black;
+    background: transparent;
+
+}
+
+footer {
+    position:fixed;
+    bottom:10px;
+}
+
+.quote__quote {
+    color: white;
+    font-size: 15px;
+    font-family: 'Passions Conflict', cursive;
+}
+
+.quote__author {
+    color: white;
+    font-size: 10px;
+    font-family: 'Passions Conflict', cursive;
+}

@@ -22,21 +22,25 @@
     <input 
     required
     maxlength="15"
-    type="text" placeholder="What is your name?" />
-    <input type="submit" value="login-form"/>
+    type="text" placeholder="What is your name?"  />
+    <input  type="submit" value="submit"/>
     </form>
+
     <h1 id="greeting" class="hidden"></h1>
-    <div id="day">0000-00-00</div>
     <div id="clock">00:00:00</div>
+    <div id="day">0000-00-00</div>
+   
     <form id="todo-form">
         <input type="text" placeholder="Write a To Do and Press Enter" required />
     </form>
     <ul id="todo-list"></ul>
     </main>
     <footer id="quote">
-        <span></span>
-        <span></span>
+        <span class="quote__quote"></span>
+        <span class="quote__author"></span>
     </footer>
+    </body>
+    <script src="https://kit.fontawesome.com/3ead239139.js" crossorigin="anonymous"></script>
     <script src="js/greetings.js"></script>  
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>
